@@ -1,0 +1,25 @@
+{
+  "name": "btc-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/chrisfranz/btc-api.git",
+  "author": "chrisfranz <chris.franz@beautycounter.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon app/index.js"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "body-parser": "^1.19.0",
+    "coinbase": "^2.0.8",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
